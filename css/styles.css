@@ -38,3 +38,8 @@ body {
     margin: 2rem;
 }
 /*calculadoa*/
+.est {
+    border: 2px solid blue;
+    height: 400px;
+    background-color: aqua;
+}
