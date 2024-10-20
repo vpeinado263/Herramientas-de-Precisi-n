@@ -4,7 +4,7 @@ body {
     padding: 0.2rem;
     font-family: "Arial", sans-serif;
     text-align: center;
-    background-color: rgb(136, 131, 131);
+    background-color: rgb(7, 13, 102);
     color: #fff9f9;
 }
 /*contador*/
@@ -25,7 +25,7 @@ body {
     font-size: 1em;
     color: white;
     margin: 0.1rem;
-    background-color: rgb(26, 81, 201);
+    background-color: rgb(31, 48, 85);
     border-radius: 0.5rem;
     transition: background-color 0.3 ease;
     box-shadow: 0 0 10px  rgba(255, 255, 255, 0.5);
@@ -45,7 +45,7 @@ body {
 .est {
     border: 2px solid blue;
     height: 400px;
-    background-color: aqua;
+    background-color: rgb(22, 61, 112);
 }
 #contador {
     font-size: 36px;
