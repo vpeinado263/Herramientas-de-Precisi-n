@@ -2,6 +2,10 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0.2rem;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    background-color: rgb(136, 131, 131);
+    color: #fff9f9;
 }
 /*contador*/
 .contador-container {
@@ -42,4 +46,14 @@ body {
     border: 2px solid blue;
     height: 400px;
     background-color: aqua;
+}
+#contador {
+    font-size: 36px;
+    margin: 20px;
+    background-color: #333;
+    box-shadow: 0 0 10px  rgba(255, 255, 255, 0.5);
+}
+#display {
+    height: 30px;
+    width: 260px;
 }

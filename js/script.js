@@ -45,11 +45,15 @@ function actualizarCronometro() {
     milisegundos += 10;
     if (milisegundos === 1000) {
         milisegundos = 0;
+        segundos++;
+    }
+    if (segundos === 60) {
+        segundos = 0;
         minutos++;
     }
     actualizarDisplay();
 }
-function actualizarDisplay() {
+function actualizarDisplayCalculadora() {
     document.getElementById('minutos').innerText = formatearTiempo(minutos);
     document.getElementById('segundos').innerText = formatearTiempo(segundos);
     document.getElementById('milisegundos').innerText = formatearTiempo(milisegundos)
@@ -77,7 +81,7 @@ function agragarCaracter(caracter) {
     actualizarDisplay();
 }
 function calcularResultado() {
-    console.log("Expresion antes de evaluar:", expresion);
+    console.log("Expresión antes de evaluar:", expresion);
     try {
         let resultado = eval(expresion);
         if(isNaN(resultado) || !isFinite(resultado)) {
