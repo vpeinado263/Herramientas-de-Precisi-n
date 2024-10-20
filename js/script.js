@@ -22,3 +22,25 @@ disminuirButton.addEventListener("click", function() {
 });
 actualizarContador();
 //Cronómetro
+let minutos = 0;
+let segundos = 0;
+let milisegundo = 0;
+
+function iniciarCronometro() {
+
+}
+function detenerCronometro() {
+
+}
+function resetearCronometro() {
+
+}
+function actualizarCronometro() {
+
+}
+function actualizarDisplay() {
+
+}
+function formatearTiempo() {
+    
+}
