@@ -1,3 +1,8 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+}
 /*contador*/
 .contador-container {
   border: 2px solid orange;
@@ -15,7 +20,7 @@
     font-size: 1em;
     color: white;
     margin: 0.1rem;
-    background-color: black;
+    background-color: rgb(26, 81, 201);
     border-radius: 0.5rem;
     transition: background-color 0.3 ease;
     box-shadow: 0 0 10px  rgba(255, 255, 255, 0.5);
@@ -24,4 +29,9 @@
     background-color: aliceblue;
     color: black;
 }
-/*cronómetro*
+/*cronómetro*/
+.cronometro-container {
+    border: 2px solid orange;
+    border-radius: 2rem;
+    text-align: center;
+}
