@@ -1,10 +1,27 @@
 /*contador*/
-#aumentar {
+.contador-container {
+  border: 2px solid orange;
+  border-radius: 2rem;
+  text-align: center;
+}
+.contador {
+    font-size: 2em;
+    margin: 20px;
+    background-color: #a3a1a8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px  rgba(255, 255, 255, 0.5);
+}
+.contadorbutton {
     font-size: 1em;
     color: white;
     margin: 0.1rem;
     background-color: black;
-    border-radius: 0.1rem;
-    box-shadow: 0 0 10px rgb(red, green, blue);
+    border-radius: 0.5rem;
+    transition: background-color 0.3 ease;
+    box-shadow: 0 0 10px  rgba(255, 255, 255, 0.5);
 }
-/*cronómetro*/
+.contadorbutton:hover {
+    background-color: aliceblue;
+    color: black;
+}
+/*cronómetro*
