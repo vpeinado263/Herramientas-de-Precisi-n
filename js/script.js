@@ -1,4 +1,4 @@
-/*****Contador*****/
+//Contador
 const contadorElement = document.getElementById("contador");
 const aumentarButton = document.getElementById("aumentar");
 const disminuirButton = document.getElementById("disminuir");
@@ -21,3 +21,4 @@ disminuirButton.addEventListener("click", function() {
     }
 });
 actualizarContador();
+//Cronómetro
