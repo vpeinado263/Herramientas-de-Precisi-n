@@ -1,13 +1,14 @@
 body {
     display: flex;
     flex-direction: column;
-
+    padding: 0.2rem;
 }
 /*contador*/
 .contador-container {
-  border: 2px solid orange;
-  border-radius: 2rem;
-  text-align: center;
+    border: 2px solid orange;
+    border-radius: 2rem;
+    text-align: center;
+    margin: 2rem;
 }
 .contador {
     font-size: 2em;
@@ -34,4 +35,5 @@ body {
     border: 2px solid orange;
     border-radius: 2rem;
     text-align: center;
+    margin: 2rem;
 }

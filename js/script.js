@@ -54,6 +54,6 @@ function actualizarDisplay() {
     document.getElementById('segundos').innerText = formatearTiempo(segundos);
     document.getElementById('milisegundos').innerText = formatearTiempo(milisegundos)
 }
-function formatearTiempo() {
+function formatearTiempo(tiempo) {
     return tiempo < 10 ? '0' + tiempo : tiempo;
 }

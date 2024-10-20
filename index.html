@@ -12,14 +12,15 @@
 </header>
 <body>
     <!----contador----->
-    <div class="contador-container">
+    <section class="contador-container">
      <p id="contador" class="contador">0</p>
      <div>
         <button id="aumentar" class="contadorbutton">Aumentar</button>
         <button id="disminuir" class="contadorbutton">Disminuir</button>
      </div>
+    </section>
     <!-----cronómetro----->
-    <div class="cronometro-container">
+    <section class="cronometro-container">
         <div>
             <span id="minutos">00</span>
             :
@@ -28,11 +29,11 @@
            <span id="milisegundos">000</span>
         </div>
         <div>
-            <button class="contadorbutton">Iniciar</button>
-            <button class="contadorbutton">Detener</button>
-            <button class="contadorbutton">Resetear</button>
+            <button onclick="iniciarCronometro()" class="contadorbutton">Iniciar</button>
+            <button onclick="detenerCronometro()" class="contadorbutton">Detener</button>
+            <button onclick="resetearCronometro()" class="contadorbutton">Resetear</button>
         </div>
-    </div>
+    </section>
 </body>
 <script src="./js/script.js"></script>
 </html>
