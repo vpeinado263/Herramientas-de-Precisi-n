@@ -22,16 +22,52 @@
     <!-----cronómetro----->
     <section class="cronometro-container">
         <div>
-            <span id="minutos">00</span>
+            <span id="minutos" class="contador">00</span>
             :
-           <span id="segundos">00</span>
+           <span id="segundos" class="contador">00</span>
             :
-           <span id="milisegundos">000</span>
+           <span id="milisegundos" class="contador">000</span>
         </div>
         <div>
             <button onclick="iniciarCronometro()" class="contadorbutton">Iniciar</button>
             <button onclick="detenerCronometro()" class="contadorbutton">Detener</button>
             <button onclick="resetearCronometro()" class="contadorbutton">Resetear</button>
+        </div>
+    </section>
+    <!-----calculadora----->
+    <section>
+        <div class="est">
+            <div>
+                <input type="" id="display" disabled>
+            </div>
+            <div>
+                <button onclick="limpiarDisplay()">C</button>     
+                <button onclick="eliminarCaracter()">←</button>
+                <button onclick="agregarCaracter('/')">/</button>
+                <button onclick="agregarCaracter('*')">*</button>
+            </div>
+            <div>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>-</button>
+            </div>
+            <div>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>+</button>
+            </div>
+            <div>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>=</button>
+            </div>
+            <div>
+                <button>0</button>
+                <button>.</button>
+            </div>
         </div>
     </section>
 </body>
