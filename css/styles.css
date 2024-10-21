@@ -2,14 +2,31 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0.2rem;
-    font-family: "Arial", sans-serif;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5em;
     text-align: center;
     background-color: rgb(7, 13, 102);
     color: #fff9f9;
 }
+
+/*buton personalizado*/
+.contadorbutton {
+    font-size: 1em;
+    height: 3rem;
+    width: 9rem;
+    color: white;
+    margin: 1rem;
+    background-color: rgb(31, 48, 85);
+    border-radius: 0.90rem;
+    transition: background-color 0.3 ease;
+    box-shadow: 0 0 10px  rgba(196, 183, 183, 0.5);
+}
+.contadorbutton:hover {
+    background-color: aliceblue;
+    color: black;
+}
 /*contador*/
 .contador-container {
-    border: 2px solid orange;
     border-radius: 2rem;
     text-align: center;
     margin: 2rem;
@@ -17,43 +34,20 @@ body {
 .contador {
     font-size: 2em;
     margin: 20px;
-    background-color: #a3a1a8;
     border-radius: 10px;
     box-shadow: 0 0 10px  rgba(255, 255, 255, 0.5);
 }
-.contadorbutton {
-    font-size: 1em;
-    color: white;
-    margin: 0.1rem;
-    background-color: rgb(31, 48, 85);
-    border-radius: 0.5rem;
-    transition: background-color 0.3 ease;
-    box-shadow: 0 0 10px  rgba(255, 255, 255, 0.5);
-}
-.contadorbutton:hover {
-    background-color: aliceblue;
-    color: black;
-}
+
 /*cronómetro*/
 .cronometro-container {
-    border: 2px solid orange;
     border-radius: 2rem;
     text-align: center;
     margin: 2rem;
 }
-/*calculadoa*/
-.est {
-    border: 2px solid blue;
-    height: 400px;
-    background-color: rgb(22, 61, 112);
-}
-#contador {
-    font-size: 36px;
-    margin: 20px;
-    background-color: #333;
-    box-shadow: 0 0 10px  rgba(255, 255, 255, 0.5);
-}
-#display {
-    height: 30px;
-    width: 260px;
+/*calculadora*/
+.imput {
+    color: rgb(3, 3, 3);
+    background-color: rgb(255, 255, 255);
+    width: 20rem;
+    height: 2rem;
 }
