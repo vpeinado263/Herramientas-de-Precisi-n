@@ -1,3 +1,7 @@
+// Cambio de color de fondo a Blue
+function cambiarColorFondo() {
+    document.body.style.backgroundColor = "blue";
+  }
 // Contador
 const contadorElement = document.getElementById("contador");
 const aumentarButton = document.getElementById("aumentar");
