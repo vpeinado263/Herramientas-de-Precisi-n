@@ -23,3 +23,6 @@ Crear este proyecto me permitió consolidar varios conceptos clave de JavaScript
 1. **Manipulación del DOM:** Trabajé de forma intensiva con la manipulación del DOM para actualizar dinámicamente el contenido de la página.
 2. **Eventos y Funciones:** Comprendí mejor el uso de eventos en JavaScript, como `click` y cómo conectarlos con funciones que ejecuten la lógica de las herramientas.
 3. **Modularidad del Código:** Aprendí a estructurar el código de manera que sea fácil de entender y mantener. Cada herramienta está separada y encapsulada en su propia lógica.
+
+Puedes ver el proyecto en vivo aquí: [Calculadora, Cronómetro y Contador - Proyecto Simple](https://herramientas-de-precisi-n.vercel.app/)
+   
